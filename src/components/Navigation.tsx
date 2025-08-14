@@ -43,7 +43,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img
-              src="/lovable-uploads/d4a5680b-1296-4743-a1ca-3825445bb81a.png"
+              src="/lovable-uploads/90baa305-3917-4a9a-8f29-1c0c16736599.png"
               alt="CONTAFI Contabilidade"
               className="h-10 w-auto"
             />
