@@ -32,7 +32,7 @@ const EgestorERP = () => {
         {/* CTA Button - Centered below both columns */}
         <div className="flex justify-center animate-fade-in">
           <a href={egestorLink} target="_blank" rel="noopener noreferrer" className="inline-block w-full max-w-sm">
-            <button className="w-full py-3 bg-[#7CFFA0] hover:bg-[#6DF090] text-black font-medium rounded-full transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-[1.02]">
+            <button className="w-full py-3 bg-[#7CFFA0] hover:bg-[#5ee080] text-black font-medium rounded-full transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-[1.02] focus:ring-2 focus:ring-[#7CFFA0]/50 focus:outline-none">
               Teste grátis
             </button>
           </a>

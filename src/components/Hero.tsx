@@ -59,7 +59,7 @@ const Hero = () => {
                 variant="outline"
                 size="lg"
                 onClick={() => scrollToSection("contato")}
-                className="border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-all duration-300"
+                className="bg-primary-foreground/10 border-2 border-primary-foreground/60 text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-all duration-300"
               >
                 Fale Conosco
               </Button>
