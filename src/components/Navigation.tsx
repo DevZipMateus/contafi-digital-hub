@@ -45,7 +45,7 @@ const Navigation = () => {
             <img
               src="/lovable-uploads/90baa305-3917-4a9a-8f29-1c0c16736599.png"
               alt="CONTAFI Contabilidade"
-              className="h-10 w-auto"
+              className="h-16 w-auto"
             />
           </div>
 
