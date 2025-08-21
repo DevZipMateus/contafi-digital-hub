@@ -13,7 +13,7 @@ const Footer = () => {
             <img
               src="/lovable-uploads/90baa305-3917-4a9a-8f29-1c0c16736599.png"
               alt="CONTAFI Contabilidade"
-              className="h-12 w-auto mb-4 brightness-0 invert"
+              className="h-20 w-auto mb-4 bg-white p-2 rounded"
             />
             <h3 className="text-xl font-bold mb-4">CONTAFI CONTABILIDADE</h3>
             <p className="text-primary-foreground/80 mb-4 leading-relaxed">
