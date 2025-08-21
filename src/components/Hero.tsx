@@ -9,7 +9,7 @@ const Hero = () => {
       });
     }
   };
-  return <section id="inicio" className="min-h-screen bg-gradient-hero flex items-center relative overflow-hidden">
+  return <section id="inicio" className="min-h-screen bg-gradient-hero flex items-center relative overflow-hidden pt-20 md:pt-0">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <svg width="100%" height="100%" viewBox="0 0 100 100" className="animate-float">
