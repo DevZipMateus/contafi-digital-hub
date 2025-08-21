@@ -1,22 +1,21 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Shield, Users, Trophy } from "lucide-react";
-
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({
+        behavior: "smooth"
+      });
     }
   };
-
-  return (
-    <section id="inicio" className="min-h-screen bg-gradient-hero flex items-center relative overflow-hidden">
+  return <section id="inicio" className="min-h-screen bg-gradient-hero flex items-center relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <svg width="100%" height="100%" viewBox="0 0 100 100" className="animate-float">
           <defs>
             <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
-              <path d="M 10 0 L 0 0 0 10" fill="none" stroke="currentColor" strokeWidth="0.5"/>
+              <path d="M 10 0 L 0 0 0 10" fill="none" stroke="currentColor" strokeWidth="0.5" />
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#grid)" />
@@ -28,11 +27,7 @@ const Hero = () => {
           {/* Content */}
           <div className="text-center lg:text-left animate-fade-in">
             <div className="mb-8">
-              <img
-                src="/lovable-uploads/90baa305-3917-4a9a-8f29-1c0c16736599.png"
-                alt="CONTAFI Contabilidade"
-                className="h-20 w-auto mx-auto lg:mx-0 mb-6"
-              />
+              
               <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground mb-4 text-shadow">
                 CONTAFI
                 <span className="block gradient-text">CONTABILIDADE</span>
@@ -47,20 +42,11 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button
-                size="lg"
-                onClick={() => scrollToSection("servicos")}
-                className="bg-secondary hover:bg-secondary-dark text-secondary-foreground font-semibold shadow-glow hover:shadow-strong transition-all duration-300"
-              >
+              <Button size="lg" onClick={() => scrollToSection("servicos")} className="bg-secondary hover:bg-secondary-dark text-secondary-foreground font-semibold shadow-glow hover:shadow-strong transition-all duration-300">
                 Nossos Serviços
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                onClick={() => scrollToSection("contato")}
-                className="bg-primary-foreground/10 border-2 border-primary-foreground/60 text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-all duration-300"
-              >
+              <Button variant="outline" size="lg" onClick={() => scrollToSection("contato")} className="bg-primary-foreground/10 border-2 border-primary-foreground/60 text-primary-foreground hover:bg-primary-foreground hover:text-primary transition-all duration-300">
                 Fale Conosco
               </Button>
             </div>
@@ -106,8 +92,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
