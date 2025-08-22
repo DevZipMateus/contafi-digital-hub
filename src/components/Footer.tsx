@@ -1,3 +1,4 @@
+
 import { Separator } from "@/components/ui/separator";
 import { MapPin, Phone, Mail, Calendar } from "lucide-react";
 
@@ -31,8 +32,7 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <MapPin className="h-4 w-4 text-secondary flex-shrink-0" />
                 <span className="text-sm text-primary-foreground/80">
-                  Av. Sigismundo Nunes de Oliveira, 730<br />
-                  Marília/SP - CEP: 17512-752
+                  Marília/SP
                 </span>
               </div>
               <div className="flex items-center gap-3">
