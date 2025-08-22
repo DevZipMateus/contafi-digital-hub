@@ -1,4 +1,5 @@
 
+
 import { Separator } from "@/components/ui/separator";
 import { MapPin, Phone, Mail, Calendar } from "lucide-react";
 
@@ -56,7 +57,7 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <Calendar className="h-4 w-4 text-secondary flex-shrink-0" />
                 <span className="text-sm text-primary-foreground/80">
-                  Seg-Sex: 8h-18h | Sáb: 8h-12h
+                  Seg-Sex: 8h30-18h30
                 </span>
               </div>
             </div>
@@ -93,3 +94,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

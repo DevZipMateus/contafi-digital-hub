@@ -1,4 +1,5 @@
 
+
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
@@ -94,8 +95,7 @@ const Location = () => {
                       Horário de Funcionamento
                     </h3>
                     <div className="text-muted-foreground space-y-1">
-                      <p>Segunda a Sexta: 8h às 18h</p>
-                      <p>Sábado: 8h às 12h</p>
+                      <p>Segunda a Sexta: 8h30 às 18h30</p>
                       <p className="text-sm italic">
                         Atendimento online disponível 24h
                       </p>
@@ -112,3 +112,4 @@ const Location = () => {
 };
 
 export default Location;
+
